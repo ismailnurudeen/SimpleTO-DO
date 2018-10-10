@@ -1,0 +1,78 @@
+body{
+  width: 100%;
+  margin: auto;
+  font-family: sans-serif;
+  font-size: 30px;
+  text-align: center;
+  background:rgb(70, 107, 228);
+}
+
+header>h3{
+  font-size:70px;
+  font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  background: #faf9f8;
+  color:steelblue;
+  border: 1px double #fff;
+  border-radius:5px;
+  box-shadow: 5px 20px 15px #333;
+  margin: 100px auto 20px;
+  max-width: 600px;
+}
+.main{
+  background:rgb(251, 253, 253);
+  color:rgb(17, 17, 17);
+  font-size: 25px;
+  font-family: cursive;
+  padding: 10px;
+  margin: 30px auto 50px;
+  border: 2px groove #fff;
+  border-radius:10px;
+  box-shadow: 10px 13px 30px steelblue;
+  max-width: 70%;
+}
+
+.btn{
+  border: 3px outset steelblue;
+  border-radius: 5px;
+  height: 50px;
+  font-family: monospace;
+  font-size: 20px;
+  cursor:pointer;
+  padding: 10px;
+  background:rgb(15, 15, 15);
+  color:#ffffff;  
+}
+
+#checkList{
+  list-style:decimal;
+}
+#checkList li{
+  border-bottom: 2px solid steelblue;
+  padding: 5px;
+}
+li span{
+    text-transform:uppercase;
+}
+li input{
+  display: none;
+  font-family: cursive;
+  font-size: 20px;
+}
+li.edit span{
+  display: none;
+}
+
+li.edit input{
+  display: initial;
+}
+li button{
+border-radius:10px;
+border-style: none;
+margin-left: 70px;
+color: red;
+background: inherit;
+font-size: 18px;
+font-family:cursive;
+font-weight: bolder;
+cursor: pointer;
+}
